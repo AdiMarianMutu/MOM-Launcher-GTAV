@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>============================================================
+4.2b.220618
+ ●Improved: The code of the 'MOMLauncher.dll'
+============================================================
+
+4.2a.040618
+ ●Fixed: A random 'Memory Violation' error from the .dll
+
+4.2.120518
+ ●Improved: Heavy rewritten the code of the "MOMLauncherImprove.exe" and renamed to "PerformanceProcessImprove.exe"
+            With this new update I have improved the LOD of the textures when fast driving throug the city.
+            But I have not got the possibility to test on other PC, please, tell me if you notice an improvment or not.
+
+ ●Fixed: The annoying 'Update Manager' 'New Update' spawning bug
+
+4.1c.080518
+ ●Fixed: The issue with the false positive detection with some Antivirus
+
+4.1b.040418
+ ●Added: Now you can choose if MOMLauncher will show or not a notification when an update is available
+ ●Bug fix: Some minor problems with the P.P (Performance Process)
+
+ [!!!]: If you have an old 'self.xml' file from a old version of MOMLauncher delete this file and re-launch MOMLauncher.
+
+4.1a.030418
+ ●Bug fix: (Again) a big memory leak by MOMLauncher.dll. I'm very sorry if some of you have experienced this problem.
+
+4.1.030418
+ ●Bug fix: Another big issue with the MOMLauncher.dll. Sometimes, when appear the text to move the main character the .dll enter in a infinity loop that causes really FPS drops
+ {!!!} DO NOT DOWNLOAD the v4b.0.020418 anymore!
+
+4b.0.020418
+ ●Bug fix: The "A new update is available" notification that appear every time you open MOM Launcher
+
+4a.0.020418
+ ●Bug fix: A small problem with the launching of the GTA V.exe shortcut
+
+4.0.020418
+ ●Improved: Performances of GTA V gameplay with an average of 25% (may depend also of the CPU model of your PC)
+ ●Added: When an new update is available you will see a notification in the windows toolbar
+ ●Bug fix: Some serious memory leaks of MOMLauncher.dll during the in-game session
+ ●Bug fix: Some minor bugs of the MOMLauncher main program
+
+ {N.B}: MOMLauncher main program, side with MOMLauncher.dll, now use also a new program called "MOMLauncherImprove.exe" (created on the fly first time you will run MOMLauncher main program) that will try to identify what is the model of your CPU so can try to make an average boost of GTAV without changing nothing about the graphics, but only optimizing the method how GTAV use the CPU.
+        I haven't tested this online, but MOMLauncherImprove will not alter anything about the memory or .exe of GTA V, so (teoretically) should be safe to use also with the online, version.
+        Try at your own risk!
+ [!!!]: If you have an old 'self.xml' file from a old version of MOMLauncher delete this file and re-launch MOMLauncher.
+
+3.5.19617
+ ●Added: New 'Update window' when a new update is available
+ ●Minor fix: Fixed some glitches
+
+3.4.1b.09617
+ ●Added: If the game is already running, MOM will ask you if you want to launch a new 'GTA5.exe' process or not
+ ●Bug fix: (RAM Cleaner) Fixed a problem with the 'Cortana' process
+ ●Minor fix: Fixed a glitch with the "Launch Game" button
+
+3.4.1a.07916
+ ●Added: New processes to the 'RAM Cleaner' tab
+          [-SearchIndexer
+          [-Cortana
+          This services hard work on your HDD and RAM. So killing this two services you will gave some major fps and the textures will load a bit faster
+          {N.B}: To disable cortana, MOM will create a "debugselfKillCortana" batch file. So if you see a cmd prompt is the batch file running
+ [!!!]: If you have an old 'self.xml' file from a old version of MOM delete this file and re-launch MOM.
+
+3.4.1.04916
+ ●Improved: Now the Mod Manager work with "mods" (.rpf file)
+ ●Improved: The Mod(s) file path : '\' is for the main GTA V directory. Scripts folder example : "\scripts\"
+ ●Improved: If you launch MOM for the first time she will ask you to choose your GTA V directory
+ ●Improved: Some minor things
+ ●Bug fix: When press "Launch Game" the controls in "Mod Manager" tab still remain active
+ ●Bug fix (partial): A font glitch for high DPI screen
+
+v3.4.28816
+ ●Added: Mod Manager
+          [Supported mods list:
+          [*.dll
+          [*.asi
+          [*.cs
+          [*.vb
+          [*.lua
+          [The disabled mod(s) are stored in "YOUR_GTA_V_DIRECTORY\[MOM Launcher Mod Manager]"
+ ●Bug fix: Some errors when MOM is launched for the first time
+
+v3.3.0.23816
+ ●Bug fix: Fixed a small bug with the 'MOMLauncher.dll' when disable the "P.P." in-game
+  v3.3a
+  ●Improved: The "Check all / Uncheck all" RAM Cleaner button
+  ●Bug fix: Fixed a bug with the "self.xml" file
+
+v3.3.0.17816
+ ●Added: Now you can enable/disable the P.P. in-game!
+ ●Added: 'In-Game Enable/Disable Key' to set the key that will enable/disable the P.P. in-game
+ ●Improved: Re-coded the 'MOMLauncher.dll' and improved the In-Game notifications
+
+v3.2.1.15816
+ ●Added: Now MOM make the P.P. automatically when you see your character in-game without the 'Apply after (sec)' manually function
+ ●Changed: Re-coded the 'MOMLauncher.dll'
+ ●Removed: The 'Apply after (sec)' function
+  v3.2.1a.15816
+  ●Bug fix: An issue with the GTA V directory find for the Steam version
+
+v3.2.0.14816
+ ●Added: Created a mod (MOMLauncherPP_notify.dll) that let you know in-game when the P.P. is done or not!
+ ●Bug fix: Fixed some minor bugs
+ ●Removed: Sound when the P.P. is done
+
+v3.1.1.14816
+ ●Added: Now if you set 'Stop Grand Theft Auto V Launcher' to don't kill after launching GTA V. MOM will set the Priority of the GTAVLauncher to low for more performance
+ ●Improved: Code that handle the CPU P.P.
+ ●Changed: In the P.P. Priority from "Idle" to "Low"
+ ●Changed: The min. value of 'Apply P.P. after (seconds)' to 85 sec.
+
+v3.1.0.1 (12.08.16)
+ ●Bug fix: The sound when the P.P. is done because sometimes don't play
+ ●Bug fix: An issue with the 'Update' button
+ ●Bug fix: When you check the 'steam' version and then the 'retail' versione the 'GTA V Directory path' disappear
+ ●Bug fix: An little issue with the 'RAM Cleaner' controls
+ ●Bug fix: Now the 'bin' folder is not anymore hidden
+  v3.1.0.1a 
+  ●Bug fix: Fixed a big bug with the 'Update available checking'
+
+  v3.1.0.1b
+  ●Bug fix: Fixed a critical bug with the 'Update available checking'
+
+v3.1 (11.08.16)
+ ●Improved: Tool code-script used for the P.P.
+ ●Improved: GUI (Graphical User Interface)
+ ●Improved: Script for the Update checking
+ ●Improved: Performance of MOM
+ ●Added: New 14 processes to kill when the P.P. is done. (If you check an process and you don't have installed, MOM will skip this for you)
+ ●Added: Now the tool play a sound when the P.P. is done! (The sound file is stored in the hidden "*\bin" folder)
+ ●Removed: More advanced info about P.P. and added again the 'How to use'.txt file
+ [!!!]: If you have an old 'self.xml' file from a old version of MOM (or Auto CPU Performance) delete this file and re-launch MOM
+
+v3.0 (10.08.16)
+ ●New tool name "MOM Grand Theft Auto V Launcher"
+ ●Improved: GUI (Graphical User Interface)
+ ●Added: Now the tool let you know when an update is available!
+ ●Added: More advanced info about P.P. (Performance Process)
+ ●Improved: Tool code-script
+ ●Bug fix: An issue with the 'self_launchgtav' shortcut that can't launch the game
+
+v2.2.1 (06.08.16)
+ ●Added: Play/Stop track to the 'Self Radio' tab
+ ●Added: Now you can select to Add multiple tracks
+ ●Added: Now you can delete multiple tracks at once
+ ●Bug fix: 'Self Radio' tab 'Remove' button error &gt;'null return'&lt;
+ ●Bug fix: 'Self Radio' tab 'Add' button file extension filter
+ ●Bug fix: Minor bugs
+
+v2.2 (05.08.16)
+ ●Added: Function to add custom music to the 'Self Radio'
+ ●Bug fix: A small bug with the controls (buttons)
+
+v2.1c1 (02.08.16)
+ ●Bug fix: An issue with the saving of the 'settings.xml' file
+ ●Bug fix: When press the 'Play Grand Theft Auto V' some controls still remain enabled
+ ●Bug fix: Minor bugs
+ ●Added: Now you can choose manually the GTA V directory
+
+v2.1c (12.05.16)
+ ●Bug fix: An issue that can't detect correctly the 'Grand Theft Auto V' main directory
+
+v2.1b (10.05.16)
+ ●Improved: Now the tool finds the GTA V directory path automatically
+ ●Improved: There is no more need to create the 'GTAVLauncher' shortcut
+ ●Bug fix: "Can't execute GTAVLauncher" error for the Steam version
+ ●Bug fix: An issue with the HexaCore CPU (CPUAffinty)
+ ●Bug fix: An issue with the load of the 'settings.xml'
+ ●Bug fix: A problem with the 'settings.xml' tab
+
+v2.1a (08.05.16)
+ ●Added: Now the tool support the Hexa-Core CPU
+ ●Added: 'Video Card Description' to the 'settings.xml' tab
+ ●Bug fix: CPU Affinity number of cores check
+ ●Bug fix: An issue with some controls
+ ●Bug fix: An issue with the load of the 'settings.xml'
+ ●Bug fix: An issue with the 'settings.xml' file save path
+
+v2.1
+ ●Added: RAM Cleaner (Work in Progress). For now have only 3 custom processes. Please, send me some ideas on what other processes should add
+ ●Added: Now you can modify the 'settings.xml' with this tool
+ ●Added: Tooltip over the controls for help
+ ●Added: A check to verify the CPU cores number
+ ●Improved: Very hard rewritten tool code-script for more performance (not in GTA V)
+ ●Bug fix: An issue with the CPU Affinity window user settings save
+ ●Bug fix: With the 'Save changes' button
+
+v2.0.1.1
+ ●Bug fix: Now you can launch the game from 'C:\Program Files\Rockstar Games\Grand Theft Auto V'
+ ●Added: Now you can cancel the launching of the game
+ ●Improved: Tool code-script
+
+v2.0.1
+ ●Version not public
+
+v2.0
+ ●Added: GUI (Graphical User Interface)
+ ●Improved: Tool code-script
+ ●Tool rewritten in C#
+
+v1.1
+ ●Improved: Tool code-script
+ ●Using PowerShell
+
+v1.0 (19.04.16)
+ ●First release
+ ●Using PowerShell</value>
+  </data>
+</root>
